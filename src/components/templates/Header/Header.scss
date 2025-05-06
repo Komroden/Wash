@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header_links {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+  }
+  .header_logo{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .header_phone{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+}

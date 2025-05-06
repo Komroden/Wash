@@ -1,0 +1,19 @@
+.input{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 24px;
+  outline: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  display: block;
+}
+.input::placeholder{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}

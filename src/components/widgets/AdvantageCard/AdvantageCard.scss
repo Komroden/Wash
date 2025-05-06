@@ -1,0 +1,20 @@
+.advantage_card {
+  max-width: 226px;
+
+  .advantage_card_number {
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+  }
+
+  .advantage_card_info {
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #878787;
+  }
+}

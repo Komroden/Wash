@@ -1,0 +1,31 @@
+.reviews{
+  margin-top: 120px;
+
+  .reviews_carousel{
+    margin-top:40px;
+  }
+  .review_item{
+    margin: 0 20px;
+  }
+  .slick-arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #CDCDCD;
+    color: #000000;
+  }
+  .slick-prev{
+    left: -25px;
+  }
+  .slick-next{
+    right: -25px;
+  }
+  .slick-prev::after{
+    top: 9px;
+    left: 11px;
+  }
+  .slick-next::after{
+    top: 9px;
+    left: 8px;
+  }
+}

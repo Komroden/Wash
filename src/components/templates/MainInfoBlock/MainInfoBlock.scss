@@ -1,0 +1,69 @@
+.main_info_block {
+  margin-top: 68px;
+
+  .title_block {
+    .title {
+      font-size: 92px;
+      font-weight: 700;
+      line-height: 115px;
+    }
+
+    .subtitle {
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 90px;
+      text-align: left;
+
+      color: #CDCDCD;
+    }
+  }
+
+  .advantages {
+    display: flex;
+
+    .advantages_cards {
+      margin-top: 40px;
+      max-width: 477px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 25px;
+
+    }
+
+    .advantages_logo {
+      width: calc(100% - 477px);
+      max-height: 305px;
+      max-width: 800px;
+      margin-top: -65px;
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .why_we {
+    margin-top: 36px;
+    display: flex;
+    max-width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+
+    .info {
+      max-width: 730px;
+
+      .title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        color: #CDCDCD;
+      }
+
+      .subtitle {
+        margin-top: 8px;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32.5px;
+      }
+    }
+  }
+}

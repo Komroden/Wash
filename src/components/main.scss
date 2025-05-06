@@ -1,0 +1,16 @@
+@use "templates/Header/Header";
+@use "templates/MainInfoBlock/MainInfoBlock";
+@use "templates/OurServiceBlock/OurServiceBlock";
+@use "templates/OrderProcessBlock/OrderProcessBlock";
+@use "templates/FeedbackBlock/FeedbackBlock";
+@use "templates/Reviews/Reviews";
+@use "templates/Footer/Footer";
+
+
+@use "controls/LinkButton/LinkButton";
+@use "controls/Input/Input";
+
+@use "widgets/AdvantageCard/AdvantageCard";
+@use "widgets/PrivacyPolicy/PrivacyPolicy";
+@use "widgets/ReviewItem/ReviewItem";
+
